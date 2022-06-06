@@ -7,7 +7,7 @@ GamePlayManager = {
     },
     preload: function() {
         var me=this;
-        me.load.image('background',"assets/img/33Z_2105.w026.n002.392B.p1.392.jpg");
+        me.load.image('background',"assets/img/IMG_20220606_140421.jpg");
         me.load.spritesheet("cat","assets/img/ejecutando-chubby-cat-cartoon-game-character-animation-sprite_12402-184-removebg-preview.png",223,139);
         
     },
@@ -43,7 +43,7 @@ GamePlayManager = {
     }
 }
 
-var game = new Phaser.Game(6325, 2846, Phaser.CANVAS);
+var game = new Phaser.Game(1920, 865, Phaser.CANVAS);
     
 game.state.add("gameplay", GamePlayManager);
 game.state.start("gameplay");
