@@ -43,7 +43,7 @@ GamePlayManager = {
     }
 }
 
-var game = new Phaser.Game(1136, 640, Phaser.CANVAS);
+var game = new Phaser.Game(6325, 2846, Phaser.CANVAS);
     
 game.state.add("gameplay", GamePlayManager);
 game.state.start("gameplay");
